@@ -739,7 +739,7 @@ function Library:Create(options)
 					-- StarterGui.Vision Lib v2.KeySystemFrame.Main.DiscordServerButton.UIGradient
 					KeySystem["ae"] = Instance.new("UIGradient", KeySystem["ab"])
 					KeySystem["ae"]["Rotation"] = 90
-					KeySystem["ae"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(63, 182, 114)),ColorSequenceKeypoint.new(0.516, Color3.fromRGB(78, 90, 213)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(63, 74, 172))}
+					KeySystem["ae"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(63, 182, 114)),ColorSequenceKeypoint.new(0.516, Color3.fromRGB(78, 90, 213)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(65, 188, 63))}
 
 					-- StarterGui.Vision Lib v2.KeySystemFrame.Main.DiscordServerButton.UICorner
 					KeySystem["af"] = Instance.new("UICorner", KeySystem["ab"])
@@ -2875,7 +2875,7 @@ function Library:Notify(options)
 		Notification["87"] = Instance.new("UIGradient", Notification["86"])
 		Notification["87"]["Name"] = [[ThemeColorGradient]]
 		Notification["87"]["Rotation"] = 90
-		Notification["87"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(132, 65, 232)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(105, 52, 185))}
+		Notification["87"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(75, 212, 64)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(75, 164, 64))}
 
 		-- StarterGui.Vision Lib v2.NotifFrame.Notif.NotifName
 		Notification["88"] = Instance.new("TextLabel", Notification["84"])
